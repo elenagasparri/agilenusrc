@@ -8,10 +8,11 @@ I use the Spectral Energy Distributions of the candidate source as input for the
 
 ### Requirements:
 #### - To use the jupyter notebook with the analysis of the IceCube neutrino region
+Install the following tools:
 * Agilepy package (for installation visit https://agilepy.readthedocs.io/en/1.5.1/quickstart/installation.html)
 
 #### - To use the Bi-LSTM neural network in order to classify the candidate neutrino source eventually found
-Set a virtual enviroenment with:
+Set a virtual environment with:
 * Python v3.7
 * Tensorflow v2.7
 * Keras v2.7
