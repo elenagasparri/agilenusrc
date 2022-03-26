@@ -66,18 +66,18 @@ class BlazarDnn:
             ax1.plot(history.history["val_loss"], label='validation')
             ax1.plot(history.history["loss"], label='training')
             ax1.legend(loc="upper right")
-            ax1.xlabel('Epochs')
-            ax1.ylabel('Loss')
-            ax1.xlim(-0.5,20)
-            ax1.ylim(0.1,0.7)
+            ax1.set_xlabel('Epochs')
+            ax1.set_ylabel('Loss')
+            ax1.set_xlim(-0.5,20)
+            ax1.set_ylim(0.1,0.7)
   
             ax2.plot(history.history["val_accuracy"], label='validation')
             ax2.plot(history.history["accuracy"], label='training')
             ax2.legend(loc="lower right")
-            ax2.xlabel('Epochs')
-            ax2.ylabel('Accuracy')
-            ax2.xlim(-0.5,20)
-            ax2.ylim(0.5,0.9)
+            ax2.set_xlabel('Epochs')
+            ax2.set_ylabel('Accuracy')
+            ax2.set_xlim(-0.5,20)
+            ax2.set_ylim(0.5,0.9)
             fig.savefig(os.path.join(save_dir,f'plot_{i}'),bbox_inches='tight')
             fig.show()
 
@@ -137,8 +137,8 @@ model.add(keras.layers.Bidirectional(keras.layers.LSTM(304)))
 model.add(keras.layers.Dense(152, activation='relu', use_bias=True))
 model.add(keras.layers.Dense(152, activation='relu', use_bias=True))
 model.add(keras.layers.Dense(1, activation='sigmoid', use_bias=True))
-opt = tf.keras.optimizers.Adam(learning_rate=0.0001) # ridotto learning rate di un fattore 10
-model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy','binary_crossentropy'])
+#opt = tf.keras.optimizers.Adam(learning_rate=0.0001) # ridotto learning rate di un fattore 10
+model.compile(loss='binary_crossentropy', optimizer='Adam', metrics=['accuracy','binary_crossentropy'])
 
 model.summary()
 
