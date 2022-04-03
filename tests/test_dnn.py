@@ -2,15 +2,10 @@
 """
 
 import unittest
-import sys
-
 import numpy as np
-from scipy.optimize import curve_fit
-import matplotlib.pyplot as plt
-if sys.flags.interactive:
-    plt.ion()
+
     
-from agilenusrc.blazardnn import BlazarDNN
+from agilenusrc.blazardnnfunc import BlazarDNN
 
 class testBlazarDnn(unittest.TestCase):
     '''Unit test for the BlazarDnn module.
@@ -29,7 +24,7 @@ class testBlazarDnn(unittest.TestCase):
         self.assertTrue(data_norm[:,:,0].max()==1)
         
 if __name__ == '__main__':
-    unittest.main(exit=not sys.flags.interactive)
+    unittest.main()
     
     
 
