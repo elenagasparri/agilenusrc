@@ -10,7 +10,7 @@ print('Numpy version:', np.__version__)
 
 from matplotlib import pyplot as plt
 
-from agilenusrc.blazardnn import BlazarDNN
+from agilenusrc.blazardnnfunc import BlazarDNN
 
 import os
 current_dir = os.getcwd()
