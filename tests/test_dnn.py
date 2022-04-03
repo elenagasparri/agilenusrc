@@ -12,7 +12,7 @@ if sys.flags.interactive:
     
 from agilenusrc.BlazarDnn import BlazarDNN
 
-class testBlazarDnn(unittest.testcase):
+class testBlazarDnn(unittest.TestCase):
     '''Unit test for the BlazarDnn module.
     '''
     
