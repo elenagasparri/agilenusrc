@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 if sys.flags.interactive:
     plt.ion()
     
-from agilenusrc.BlazarDnn import BlazarDNN
+from agilenusrc.blazardnn import BlazarDNN
 
 class testBlazarDnn(unittest.TestCase):
     '''Unit test for the BlazarDnn module.
