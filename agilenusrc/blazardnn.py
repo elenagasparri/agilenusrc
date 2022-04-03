@@ -16,6 +16,10 @@ class BlazarDnn:
     ''' Class describing the buildt and training of a deep neural network designed
     to identify blazars among agns.
     '''
+
+    def __init__(self):
+	'''Constructor.
+	'''
         
     def checkgpu(self):
         device_name = tf.test.gpu_device_name()
