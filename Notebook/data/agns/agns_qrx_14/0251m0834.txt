@@ -1,0 +1,42 @@
+# RA = 02 51 39.59 (42.914947)
+# Dec = -08 34 32.69 (-8.575746)
+# Redshift = 0.0
+# nH = 4.33E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 9 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    9.0440E-16   2.1140E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    9.8457E-16   3.6217E-17    49231.5    50508.5
+
+# VLSSr (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.4000E07     0.0000E00    3.0784E-16   5.8460E-17    51910.5    54465.5
+
+# allwise w1 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    2.1819E-14   3.4119E-15    55218.13718476    55585.05039014
+
+# allwise w3 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 5.2664E-14   0.0000E00    55218.13718476    55411.35371205 ; UPPER LIMIT
+
+# allwise w4 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 1.8803E-13   0.0000E00    55218.13718476    55411.35371205 ; UPPER LIMIT
+
+# 1SXPS(0.3-1keV) (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3250E17     0.0000E00    1.1833E-14   7.7284E-15    54492.028472    55360.403183
+
+# 1SXPS(0.3—10 keV) (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.1880E17     0.0000E00    1.6414E-14   7.5756E-15    54492.028472    55360.403183
+
+# 1SXPS(1-2keV) (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.4190E17     0.0000E00    3.0139E-14   2.3762E-14    54492.028472    55360.403183
+

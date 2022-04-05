@@ -1,0 +1,78 @@
+# RA = 12 01 31.98 (180.38326)
+# Dec = +34 16 16.14 (34.271151)
+# Redshift = 0.0
+# nH = 1.44E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 18 out of 190 selected catalogues
+
+# CLASSSCAT (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.4600E09     0.0000E00    1.9373E-15   3.3840E-17    49942.5    49942.5
+
+# FIRST (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    5.1562E-16   1.9180E-18    49078.5    49443.5
+
+# GB6 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8500E09     0.0000E00    1.5520E-15   2.4250E-16    46735.5    47069.5
+
+# JVASPOL (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8500E09     0.0000E00    8.5360E-16   1.4550E-17 0.0   0.0
+
+# NVSS (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    5.1010E-16   2.0781E-17    49231.5    50508.5
+
+# allwise w1 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.5263E-13   6.2015E-15    55347.55553933    55538.59168671
+
+# allwise w2 (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    1.1267E-13   7.0542E-15    55347.55553933    55538.59168671
+
+# allwise w3 (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 1.2098E-13   0.0000E00    55347.55553933    55348.81236194 ; UPPER LIMIT
+
+# allwise w4 (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 3.0749E-13   0.0000E00    55347.55553933    55348.81236194 ; UPPER LIMIT
+
+# WISE W1 PointPsf (id = 10)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.4442E-13   7.1213E-15    55347.55553933    55348.81236194
+
+# WISE W2 PointPsf (id = 11)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    1.2061E-13   8.5258E-15    55347.55553933    55348.81236194
+
+# WISE W3 PointPsf (id = 12)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    5.9144E-14   2.4039E-14    55347.55553933    55348.81236194
+
+# WISE W4 PointPsf (id = 13)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 2.3607E-13   0.0000E00    55347.55553933    55348.81236194 ; UPPER LIMIT
+
+# XMM3DR5 (0.2-0.5 keV) (id = 14)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E16     0.0000E00    3.7857E-14   2.0315E-15    54623.247477    54623.828183
+
+# XMM3DR5 (0.5-1 keV) (id = 15)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.6930E17     0.0000E00    4.5620E-14   1.9780E-15    54623.247477    54623.828183
+
+# XMM3DR5 (1-2 keV) (id = 16)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.3850E17     0.0000E00    5.4325E-14   2.4109E-15    54623.247477    54623.828183
+
+# XMM3DR5 (2-4.5 keV) (id = 17)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E17     0.0000E00    5.4202E-14   3.7668E-15    54623.247477    54623.828183
+
+# XMM3DR5 (4.5-12 keV) (id = 18)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.7770E18     0.0000E00    9.4325E-14   1.4456E-14    54623.247477    54623.828183
+

@@ -1,0 +1,43 @@
+# RA = 14 39 32.00 (219.88333)
+# Dec = +06 40 14.99 (6.67083)
+# Redshift = 0.0
+# nH = 2.6E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 9 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.5050E-16   2.1280E-18    49078.5    49443.5
+1.4000E09     0.0000E00    4.6480E-17   2.1420E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.8672E-16   1.3879E-17    49231.5    50508.5
+
+# allwise w1 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    3.4997E-13   1.1003E-14    55221.14834887    55588.45655674
+
+# allwise w2 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    1.7676E-13   8.8714E-15    55221.14834887    55588.45655674
+
+# allwise w3 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 5.9527E-14   0.0000E00    55221.28065319    55401.72877221 ; UPPER LIMIT
+
+# allwise w4 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 4.1327E-13   0.0000E00    55221.28065319    55401.72877221 ; UPPER LIMIT
+
+# GALEXMISFUV (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.9340E15     0.0000E00    5.0751E-14   1.3811E-14 0.0   0.0
+
+# RASS (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    1.6642E-13   7.4935E-14    47892.5    48257.5
+
+# RXS2CAT (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    2.4069E-13   9.4424E-14    48104.0    48499.0
+

@@ -1,0 +1,75 @@
+# RA = 02 10 12.14 (32.550587)
+# Dec = -05 05 31.77 (-5.092159)
+# Redshift = 0.0
+# nH = 1.88E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 16 out of 190 selected catalogues
+
+# AT20GCAT ( flux 20 GHz) (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.0000E10     0.0000E00    2.3600E-14   1.2000E-15 0.0   0.0
+
+# FIRST (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.7450E-15   1.9880E-18    49078.5    49443.5
+
+# NVSS (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.6603E-15   5.0146E-17    49231.5    50508.5
+
+# allwise w1 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    4.6050E-14   4.1717E-15    55210.85973765    55576.85160103
+
+# allwise w2 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    2.1429E-14   6.5604E-15    55210.85973765    55576.85160103
+
+# allwise w3 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 5.2373E-14   0.0000E00    55210.85973765    55398.78447051 ; UPPER LIMIT
+
+# allwise w4 (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 2.3891E-13   0.0000E00    55210.85973765    55398.78447051 ; UPPER LIMIT
+
+# WISE W1 PointPsf (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    3.3669E-14   4.7713E-15    55210.85973765    55398.78447051
+
+# WISE W2 PointPsf (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    3.4119E-14   6.9010E-15    55210.85973765    55398.78447051
+
+# WISE W3 PointPsf (id = 10)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 4.4865E-14   0.0000E00    55210.85973765    55398.78447051 ; UPPER LIMIT
+
+# WISE W4 PointPsf (id = 11)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 1.9927E-13   0.0000E00    55210.85973765    55398.78447051 ; UPPER LIMIT
+
+# XMM3DR5 (0.2-0.5 keV) (id = 12)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E16     0.0000E00    5.4950E-15   3.0821E-15    56118.491273    56118.607454
+7.2540E16     0.0000E00    6.1191E-15   1.2952E-15    55938.975336    55939.120567
+
+# XMM3DR5 (0.5-1 keV) (id = 13)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.6930E17     0.0000E00    5.4549E-15   4.1260E-15    56118.491273    56118.607454
+1.6930E17     0.0000E00    1.1227E-14   1.5809E-15    55938.975336    55939.120567
+
+# XMM3DR5 (1-2 keV) (id = 14)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.3850E17     0.0000E00    5.0004E-15   4.8990E-15    56118.491273    56118.607454
+3.3850E17     0.0000E00    1.7173E-14   2.1066E-15    55938.975336    55939.120567
+
+# XMM3DR5 (2-4.5 keV) (id = 15)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E17     0.0000E00    2.3201E-14   1.4264E-14    56118.491273    56118.607454
+7.2540E17     0.0000E00    1.7620E-14   3.3830E-15    55938.975336    55939.120567
+
+# XMM3DR5 (4.5-12 keV) (id = 16)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.7770E18     0.0000E00    1.0377E-13   8.3975E-14    56118.491273    56118.607454
+1.7770E18     0.0000E00    2.5136E-14   1.0737E-14    55938.975336    55939.120567
+

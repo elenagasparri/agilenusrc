@@ -1,0 +1,185 @@
+# RA = 15 03 40.69 (225.919542)
+# Dec = -15 41 13.90 (-15.687194)
+# Redshift = 0.0
+# nH = 8.11E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 40 out of 190 selected catalogues
+
+# NVSS (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    8.2115E-17   6.7785E-18    49231.5    50508.5
+
+# DENIS_3_i (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.7900E14     0.0000E00    1.4139E-12   1.8231E-13    51703.155347    51703.155347
+3.7900E14     0.0000E00    1.2566E-12   1.3889E-13    51103.030922    51103.030922
+
+# DENIS_3_j (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4410E14     0.0000E00    1.1220E-12   2.4801E-13    51703.155347    51703.155347
+
+# allwise w1 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    8.4029E-13   2.3744E-14    55234.5178201    55413.89626654
+
+# allwise w2 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    6.3182E-13   1.9865E-14    55234.91485995    55413.89626654
+
+# allwise w3 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    2.8888E-13   2.8534E-14    55234.65012427    55413.89626654
+
+# WISE W1 PointPsf (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    8.4106E-13   2.3113E-14    55232.26813977    55413.89626654
+
+# WISE W2 PointPsf (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    6.3240E-13   1.8867E-14    55234.5178201    55413.89626654
+
+# WISE W3 PointPsf (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    2.6273E-13   2.4757E-14    55234.65012427    55413.89626654
+
+# WISE W4 PointPsf (id = 10)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13     0.0000E00    3.0777E-13   1.0741E-13    55234.5178201    55413.89626654
+
+# GALEXAISFUV (id = 11)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.9340E15     0.0000E00    2.7350E-12   4.9376E-13 0.0   0.0
+
+# RASS (id = 12)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    6.8150E-12   9.9130E-13    47892.5    48257.5
+
+# RXS2CAT (id = 13)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    6.4127E-12   9.4198E-13    48104.0    48499.0
+
+# 1SWXRT (0.1-10 keV) (id = 14)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8360E17     0.0000E00    5.5571E-12   3.4641E-13    55563.578738    55563.654838
+
+# 1SWXRT (0.1-2.4 keV) (id = 15)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4180E17     0.0000E00    8.4967E-12   5.4895E-13    55563.578738    55563.654838
+
+# 1SWXRT (2-10 keV) (id = 16)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.0810E18     0.0000E00    3.0867E-12   4.5637E-13    55563.578738    55563.654838
+
+# 1SXPS(0.3-1keV) (id = 17)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3250E17     0.0000E00    9.2315E-12   4.8004E-13    55563.578681    56078.095012
+
+# 1SXPS(0.3—10 keV) (id = 18)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.1880E17     0.0000E00    1.1479E-11   3.2979E-13    55563.578681    56078.095012
+
+# 1SXPS(1-2keV) (id = 19)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.4190E17     0.0000E00    1.3452E-11   5.8877E-13    55563.578681    56078.095012
+
+# 1SXPS(2—10 keV) (id = 20)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.0810E18     0.0000E00    1.0357E-11   6.2355E-13    55563.578681    56078.095012
+
+# EGRET3 (id = 21)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E22     0.0000E00    5.3778E-11   1.6684E-11    48368.5    49993.5
+2.4200E22     0.0000E00    2.6727E-11   1.0205E-11    48368.5    49993.5
+
+# EGRET3 (id = 22)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E22 0.0 2.5917E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 1.6846E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 6.0419E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 6.2039E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 3.4016E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 2.6889E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 1.3445E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 2.7051E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 1.4254E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 3.5474E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+2.4200E22 0.0 1.1663E-11   0.0000E00    48368.5    49993.5 ; UPPER LIMIT
+
+# 2FHL (1081GeV) (id = 22)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.6140E26 0.0 1.5213E-11   1.3236E-20    54682.0    57116.0 ; UPPER LIMIT
+
+# 2FHL (316GeV) (id = 23)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.6400E25 0.0 4.6789E-12   3.8678E-21    54682.0    57116.0 ; UPPER LIMIT
+
+# 2FHL (92GeV) (id = 24)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.2240E25     0.0000E00    8.8968E-13   4.4772E-13    54682.0    57116.0
+
+# Fermi1FGL (200 Mev) (id = 25)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8400E22 0.0 5.7026E-12   0.0000E00    54682.65486    55016.61944 ; UPPER LIMIT
+
+# Fermi1FGL (2Gev) (id = 26)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8400E23 0.0 2.4864E-12   0.0000E00    54682.65486    55016.61944 ; UPPER LIMIT
+
+# Fermi1FGL (600 Mev) (id = 27)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E23 0.0 2.8440E-12   0.0000E00    54682.65486    55016.61944 ; UPPER LIMIT
+
+# Fermi1FGL (60Gev) (id = 28)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E25     0.0000E00    5.9802E-12   2.2728E-12    54682.65486    55016.61944
+
+# Fermi1FGL (6Gev) (id = 29)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E24     0.0000E00    2.6956E-12   9.4795E-13    54682.65486    55016.61944
+
+# Fermi2FGL (200 Mev) (id = 30)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8400E22 0.0 3.5869E-12   0.0000E00    54682.65486    55409.05347 ; UPPER LIMIT
+
+# Fermi2FGL (2Gev) (id = 31)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8400E23 0.0 1.4218E-12   0.0000E00    54682.65486    55409.05347 ; UPPER LIMIT
+
+# Fermi2FGL (600 Mev) (id = 32)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E23 0.0 2.2781E-12   0.0000E00    54682.65486    55409.05347 ; UPPER LIMIT
+
+# Fermi2FGL (60Gev) (id = 33)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E25     0.0000E00    2.9985E-12   1.1666E-12    54682.65486    55409.05347
+
+# Fermi2FGL (6Gev) (id = 34)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E24     0.0000E00    2.5217E-12   6.6876E-13    54682.65486    55409.05347
+
+# Fermi2FglLC (id = 35)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E23     0.0000E00    3.4235E-12   1.4780E-12    54713.0    54743.4
+2.4200E23     0.0000E00    2.4600E-12   1.2177E-12    54804.1    54834.5
+2.4200E23     0.0000E00    2.2140E-12   1.0701E-12    54834.5    54864.9
+2.4200E23     0.0000E00    4.3664E-12   1.5846E-12    54864.9    54895.2
+
+# Fermi3FGL (200 Mev) (id = 36)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8400E22     0.0000E00    1.3054E-12   7.2428E-13    54682.65486    56139.94861
+
+# Fermi3FGL (2Gev) (id = 37)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8400E23     0.0000E00    6.5883E-13   2.9955E-13    54682.65486    56139.94861
+
+# Fermi3FGL (600 Mev) (id = 38)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E23     0.0000E00    1.1337E-12   3.9036E-13    54682.65486    56139.94861
+
+# Fermi3FGL (60Gev) (id = 39)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E25     0.0000E00    3.9703E-12   9.7284E-13    54682.65486    56139.94861
+
+# Fermi3FGL (6Gev) (id = 40)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4520E24     0.0000E00    2.0638E-12   4.3155E-13    54682.65486    56139.94861
+

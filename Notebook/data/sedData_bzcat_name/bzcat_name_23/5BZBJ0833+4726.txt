@@ -1,0 +1,42 @@
+# RA = 08 33 57.08 (128.487833)
+# Dec = +47 26 53.00 (47.448056)
+# Redshift = 0.0
+# nH = 3.41E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 9 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.6478E-16   1.9320E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.6355E-16   7.3013E-18    49231.5    50508.5
+
+# allwise w2 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    2.9689E-13   1.0309E-14    55298.46906384    55490.97618083
+
+# allwise w3 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 1.0440E-13   0.0000E00    55298.46906384    55299.59371248 ; UPPER LIMIT
+
+# allwise w4 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 4.5481E-13   0.0000E00    55298.46906384    55299.59371248 ; UPPER LIMIT
+
+# RASS (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    7.4998E-13   1.2630E-13    47892.5    48257.5
+
+# RXS2CAT (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    7.1106E-13   1.1399E-13    48104.0    48499.0
+
+# XMMSL1D6(0.2-12 keV) (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.7480E17     0.0000E00    2.1099E-12   3.9155E-13    55844.122905    55844.15162
+
+# XMMSL1D6(0.2-2 keV) (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.5230E17     0.0000E00    1.8626E-12   2.7168E-13    55844.122905    55844.15162
+

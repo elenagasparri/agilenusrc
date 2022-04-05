@@ -1,0 +1,42 @@
+# RA = 14 42 31.72 (220.632176)
+# Dec = +01 10 55.41 (1.182059)
+# Redshift = 0.0
+# nH = 3.47E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 9 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    2.6180E-17   2.1000E-18    49078.5    49443.5
+
+# allwise w1 (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    2.1361E-14   3.8107E-15    55223.26661843    55590.83815946
+
+# allwise w2 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13 0.0 1.7889E-14   0.0000E00    55223.26661843    55590.83815946 ; UPPER LIMIT
+
+# allwise w3 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 4.6937E-14   0.0000E00    55223.26661843    55404.2415256 ; UPPER LIMIT
+
+# allwise w4 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 2.1078E-13   0.0000E00    55223.26661843    55404.2415256 ; UPPER LIMIT
+
+# CHANDRASRC (0.2-0.5 keV) (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.6460E16     0.0000E00    7.9345E-15   5.7381E-15    52624.398438    52624.527344
+
+# CHANDRASRC (0.5-1.2 keV) (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.8730E17     0.0000E00    1.2742E-14   2.2173E-15    52624.398438    52624.527344
+
+# CHANDRASRC (1.2-2.0 keV) (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.7460E17     0.0000E00    8.2124E-15   2.2373E-15    52624.398438    52624.527344
+
+# CHANDRASRC (2.0-7.0 keV) (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+9.0470E17     0.0000E00    7.8983E-15   3.3437E-15    52624.398438    52624.527344
+

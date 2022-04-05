@@ -1,0 +1,42 @@
+# RA = 05 36 26.80 (84.11167)
+# Dec = -25 47 48.01 (-25.79667)
+# Redshift = 0.0
+# nH = 1.66E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 9 out of 10 selected catalogues
+
+# allwise w1 (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.9899E-13   7.5771E-15    55262.06698088    55454.74844792
+
+# allwise w2 (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    1.1711E-13   7.3325E-15    55262.06698088    55454.74844792
+
+# allwise w4 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 3.0271E-13   0.0000E00    55262.06698088    55263.45636373 ; UPPER LIMIT
+
+# WISE W1 PointPsf (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    2.0779E-13   8.2655E-15    55262.06698088    55263.45636373
+
+# WISE W2 PointPsf (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    1.2865E-13   8.1698E-15    55262.06698088    55263.45636373
+
+# WISE W3 PointPsf (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    6.2332E-14   2.1262E-14    55262.06698088    55263.45636373
+
+# WISE W4 PointPsf (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 2.9203E-13   0.0000E00    55262.06698088    55263.45636373 ; UPPER LIMIT
+
+# RASS (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    1.4322E-13   5.1844E-14    47892.5    48257.5
+
+# RXS2CAT (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    1.6188E-13   5.4680E-14    48104.0    48499.0
+

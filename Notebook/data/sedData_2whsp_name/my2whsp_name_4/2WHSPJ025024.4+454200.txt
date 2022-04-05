@@ -1,0 +1,33 @@
+# RA = 02 50 24.50 (42.60208)
+# Dec = +45 42 01.02 (45.7)
+# Redshift = 0.0
+# nH = 1.36E21 cm^-2 
+# Given the input coordinates, data have been retrieved from 6 out of 15 selected catalogues
+
+# allwise w1 (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    4.5251E-13   1.7614E-14    55234.68858008    55426.02876475
+8.8170E13     0.0000E00    1.2812E-12   3.3256E-14    55234.68858008    55426.02876475
+
+# allwise w2 (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    2.3561E-13   1.1825E-14    55234.68858008    55426.02876475
+6.5170E13     0.0000E00    6.0283E-13   1.7507E-14    55234.68858008    55426.02876475
+
+# allwise w3 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 8.5647E-14   0.0000E00    55234.68858008    55235.81348397 ; UPPER LIMIT
+
+# allwise w4 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 3.8074E-13   0.0000E00    55234.68858008    55235.81348397 ; UPPER LIMIT
+1.3630E13 0.0 1.7180E-13   0.0000E00    55234.68858008    55235.81348397 ; UPPER LIMIT
+
+# RASS (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    3.9074E-13   1.1588E-13    47892.5    48257.5
+
+# RXS2CAT (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    3.5015E-13   1.1787E-13    48104.0    48499.0
+

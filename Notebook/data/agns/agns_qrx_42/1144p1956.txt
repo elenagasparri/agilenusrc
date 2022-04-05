@@ -1,0 +1,74 @@
+# RA = 11 44 05.37 (176.02238)
+# Dec = +19 56 02.03 (19.933897)
+# Redshift = 0.0
+# nH = 1.58E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 15 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    2.5844E-16   3.2480E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    2.4430E-16   1.4443E-17    49231.5    50508.5
+
+# allwise w1 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.2671E-13   6.2482E-15    55350.59572359    55541.23968907
+
+# allwise w2 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    9.0489E-14   7.9510E-15    55350.59572359    55541.23968907
+
+# allwise w3 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    1.1703E-13   3.4431E-14    55350.59572359    55351.72024208
+
+# allwise w4 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 4.0053E-13   0.0000E00    55350.59572359    55351.72024208 ; UPPER LIMIT
+
+# CHANDRASRC (0.2-0.5 keV) (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.6460E16     0.0000E00    1.4926E-14   8.6129E-15    51600.472656    51600.945312
+
+# CHANDRASRC (0.5-1.2 keV) (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.8730E17     0.0000E00    1.3310E-14   2.1278E-15    51600.472656    51600.945312
+
+# CHANDRASRC (1.2-2.0 keV) (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.7460E17     0.0000E00    1.0005E-14   2.3039E-15    51600.472656    51600.945312
+
+# CHANDRASRC (2.0-7.0 keV) (id = 10)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+9.0470E17     0.0000E00    1.1624E-14   3.8055E-15    51600.472656    51600.945312
+
+# XMM3DR5 (0.2-0.5 keV) (id = 11)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E16     0.0000E00    5.2193E-15   1.6990E-15    54978.08647    54978.326493
+7.2540E16     0.0000E00    6.1503E-15   2.5788E-15    52055.881076    52056.204896
+
+# XMM3DR5 (0.5-1 keV) (id = 12)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.6930E17     0.0000E00    6.8617E-15   2.8608E-15    52235.282731    52235.612569
+1.6930E17     0.0000E00    1.3866E-14   2.2858E-15    54978.08647    54978.326493
+1.6930E17     0.0000E00    6.0226E-15   1.7003E-15    52055.881076    52056.204896
+
+# XMM3DR5 (1-2 keV) (id = 13)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.3850E17     0.0000E00    1.3667E-14   3.5613E-15    52235.282731    52235.612569
+3.3850E17     0.0000E00    1.2963E-14   2.0435E-15    54978.08647    54978.326493
+3.3850E17     0.0000E00    1.0481E-14   2.5871E-15    52055.881076    52056.204896
+
+# XMM3DR5 (2-4.5 keV) (id = 14)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E17     0.0000E00    1.5413E-14   5.3055E-15    52235.282731    52235.612569
+7.2540E17     0.0000E00    2.3365E-14   4.1695E-15    54978.08647    54978.326493
+7.2540E17     0.0000E00    1.9552E-14   4.7762E-15    52055.881076    52056.204896
+
+# XMM3DR5 (4.5-12 keV) (id = 15)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.7770E18     0.0000E00    2.5126E-14   9.3306E-15    54978.08647    54978.326493
+1.7770E18     0.0000E00    3.1461E-14   1.5739E-14    52055.881076    52056.204896
+

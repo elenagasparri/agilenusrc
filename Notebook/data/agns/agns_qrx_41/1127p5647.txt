@@ -1,0 +1,41 @@
+# RA = 11 27 07.02 (171.77927)
+# Dec = +56 47 42.03 (56.79501)
+# Redshift = 0.0
+# nH = 9.09E19 cm^-2 
+# Given the input coordinates, data have been retrieved from 6 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.8256E-16   2.0580E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.7876E-16   1.2715E-17    49231.5    50508.5
+
+# CHANDRASRC (0.2-0.5 keV) (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.6460E16     0.0000E00    4.2076E-16   6.2686E-16    53102.273438    53102.738281
+
+# CHANDRASRC (0.2-0.5 keV) (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.6460E16 0.0 1.2976E-15   0.0000E00    53162.726562    53163.175781 ; UPPER LIMIT
+7.6460E16 0.0 1.2051E-15   0.0000E00    53162.726562    53163.175781 ; UPPER LIMIT
+
+# CHANDRASRC (0.5-1.2 keV) (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.8730E17     0.0000E00    1.0980E-15   8.1827E-16    53162.726562    53163.175781
+1.8730E17     0.0000E00    1.4287E-15   8.8218E-16    53162.726562    53163.175781
+1.8730E17     0.0000E00    1.2181E-15   5.1564E-16    53102.273438    53102.738281
+
+# CHANDRASRC (1.2-2.0 keV) (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.7460E17     0.0000E00    3.5988E-15   1.7221E-15    53162.726562    53163.175781
+3.7460E17     0.0000E00    4.5434E-15   1.8284E-15    53162.726562    53163.175781
+3.7460E17     0.0000E00    4.4495E-15   1.1757E-15    53102.273438    53102.738281
+
+# CHANDRASRC (2.0-7.0 keV) (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+9.0470E17     0.0000E00    3.4516E-15   2.2360E-15    53162.726562    53163.175781
+9.0470E17     0.0000E00    8.5007E-15   3.1169E-15    53162.726562    53163.175781
+9.0470E17     0.0000E00    5.7327E-15   1.7114E-15    53102.273438    53102.738281
+

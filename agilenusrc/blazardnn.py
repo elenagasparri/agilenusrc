@@ -14,9 +14,9 @@ from agilenusrc.blazardnnfunc import BlazarDNN
 
 import os
 current_dir = os.getcwd()
-if os.path.isfile('nn_data_v3.npz'):
-    filename = 'nn_data_v3.npz'
-    print ("Dataset loaded in filename")
+if os.path.isfile('nn_data.npz'):
+    filename = 'nn_data.npz'
+    print ("Dataset present in current directory")
 else:
     raise SystemError(f'Archive with dataset not found in current diretory {current_dir}!')
 
@@ -26,38 +26,48 @@ else:
 version = 4 #versioning
 save_dir = os.path.join(current_dir,f'model_v{version}/')
 
-run = BlazarDnn()
+run = BlazarDnn(filename)
 device_name = run.checkgpu
-data, label = run.loadData(filename)
+data, label = run.loadData()
 data_norm = run.rescaleData(data)
 
 permutation = np.random.permutation(data_norm.shape[0])
-data=data[permutation]
+data_norm=data_norm[permutation]
 label=label[permutation]
 
-model = keras.Sequential()
-model.add(keras.Input(shape = (529,2))) # input
-model.add(keras.layers.Conv1D(filters = 64, kernel_size = 3, strides=1, padding='same', dilation_rate=1,
-                              activation=None, use_bias=True))
-model.add(layers.Activation('tanh'))
-model.add(keras.layers.MaxPool1D(pool_size=2, strides=None, padding='valid'))
-model.add(keras.layers.Conv1D(filters = 128, kernel_size = 3, strides=1, padding='same', dilation_rate=1,
-                              activation=None, use_bias=True))
-model.add(layers.Activation('tanh'))
-model.add(keras.layers.MaxPool1D(pool_size=2, strides=None, padding='valid'))
-model.add(keras.layers.Conv1D(filters = 256, kernel_size = 3, strides=1, padding='same', dilation_rate=1,
-                              activation=None, use_bias=True))
-model.add(layers.Activation('tanh'))
-model.add(keras.layers.MaxPool1D(pool_size=2, strides=None, padding='valid'))
-model.add(keras.layers.Bidirectional(keras.layers.LSTM(304)))
-model.add(keras.layers.Dense(152, activation='relu', use_bias=True))
-model.add(keras.layers.Dense(152, activation='relu', use_bias=True))
-model.add(keras.layers.Dense(1, activation='sigmoid', use_bias=True))
-#opt = tf.keras.optimizers.Adam(learning_rate=0.0001) # ridotto learning rate di un fattore 10
-model.compile(loss='binary_crossentropy', optimizer='Adam', metrics=['accuracy','binary_crossentropy'])
+N = data_norm.shape[1]                       # number of different frequencies in the input vector (529)
 
+#Bidirectional LSTM neural network model
+init = tf.keras.initializers.LecunNormal(5)
+
+model = keras.Sequential()
+model.add(keras.Input(shape = (N,2))) # input
+model.add(keras.layers.Conv1D(filters = 32,kernel_initializer=init, kernel_size = 3, strides=1, padding='same',
+    activation=None))
+model.add(layers.Activation('tanh'))
+model.add(keras.layers.MaxPool1D(pool_size=3, strides=2, padding='valid'))
+model.add(keras.layers.Conv1D(filters = 64,kernel_initializer=init, kernel_size = 3, strides=1, padding='same',
+    activation=None))
+model.add(layers.Activation('tanh'))
+model.add(keras.layers.MaxPool1D(pool_size=3, strides=2, padding='valid'))
+model.add(keras.layers.Conv1D(filters = 128,kernel_initializer=init, kernel_size = 3, strides=1, padding='same',
+    activation=None))
+model.add(layers.Activation('tanh'))
+model.add(keras.layers.MaxPool1D(pool_size=3, strides=2, padding='valid'))
+model.add(keras.layers.Bidirectional(keras.layers.LSTM(152)))
+model.add(keras.layers.Dense(76, activation='relu',kernel_initializer=init, use_bias=True))
+model.add(keras.layers.Dropout(0.6))
+model.add(keras.layers.Dense(38, activation='relu', kernel_initializer=init, use_bias=True))
+model.add(keras.layers.Dropout(0.4))
+model.add(keras.layers.Dense(1, activation='relu', kernel_initializer=init, use_bias=True))
+
+opt = tf.keras.optimizers.Adadelta(learning_rate=0.001)
+
+model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy']) 
 model.summary()
 
+
+# Training
 n_splits = 10 # number of splits for Kfold cross validation
 
 history_list = run.trainingModel(data_norm,n_splits,save_dir)

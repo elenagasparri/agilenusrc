@@ -10,12 +10,24 @@ from matplotlib import pyplot as plt
 
 
 class BlazarDnn:
-    ''' Class describing functions for training a deep neural network designed
+	''' Class describing functions for training a deep neural network designed
     to identify blazars among agns.
     '''
-  
+    
+    def __init__(self, filename):
+		""" Class constructor:
+		    filename shall be passed as string.
+		    
+		Parameters
+		----------
+		filename: string (.npz file object)
+				Inside the archive is supposed to found three N-D array named 'bl_data','agn_data' e 'nn_freq_data'.
+		"""
+		    
+		self.filename = os.path.join(os.path.abspath(os.getcwd()),filename)
+	  
     def checkgpu(self):
-	'''Return the name of the Device and check if the GPU has been found.
+		'''Return the name of the Device and check if the GPU has been found.
         '''
         device_name = tf.test.gpu_device_name()
         if device_name != '/device:GPU:0':
@@ -23,15 +35,10 @@ class BlazarDnn:
         print('Found GPU at: {}'.format(device_name))
         return device_name
         
-    def loadData(self,filename):
+    def loadData(self):
         '''Return data and categorical labels for the training, validation and testing of the dnn.
-	
-	Parameters
-	----------
-	filename: .npz file object
-		  Inside the archive is supposed to found three N-D array named 'bl_data','agn_data' e 'nn_freq_data'.
         '''
-        nn_data = np.load(filename)
+        nn_data = np.load(self.filename)
         bl_data = nn_data['bl_data']
         agn_data = nn_data['agn_data']
         set_freq = nn_data['nn_freq_data']
@@ -42,10 +49,10 @@ class BlazarDnn:
     def rescaleData(self,data):
         '''Return the N-D array of data with the flux of each source normalized in [0,1].
 	
-	Parameters
-	----------
-	data: array-like
-	      The complete dataset with shape (N_source,len(nn_freq_data),2).
+		Parameters
+		----------
+		data: array-like
+	      	The complete dataset with shape (N_source,len(nn_freq_data),2).
         '''
         ptp=np.ptp(data[:,:,0])
         min = np.min(data[:,:,0])
@@ -54,29 +61,29 @@ class BlazarDnn:
         return data
     
     def get_model_name(self,k):
-	'''Return a string to save the trained model with the name corrispondent to the fold of K-fold.
+		'''Return a string to save the trained model with the name corrispondent to the fold of K-fold.
 	
-	Parameters
-	----------
-	k: int
-	   The number of the fold of a specific run of k-fold.
-	'''
+		Parameters
+		----------
+		k: int
+	   		The number of the fold of a specific run of k-fold.
+		'''
         return 'model_'+str(k)+'.h5'
 
     def trainingModel(self,data,n_splits,save_dir):
-	'''After training the model of the dnn, return a list with all the history value and save the model and the history of each run to file.
+		'''After training the model of the dnn, return a list with all the history value and save the model and the history of each run to file.
 	
-	Parameters
-	----------
-	data: array-like
-	      The complete rescaled dataset with shape (N_source,len(nn_freq_data),2).
+		Parameters
+		----------
+		data: array-like
+	      	The complete rescaled dataset with shape (N_source,len(nn_freq_data),2).
 	      
-	n-splits: int
+		n-splits: int
 	          Number of splits for the k-fold routine.
 		  
-	save-dir: str
-		  Path to the directory where to save the output of the dnn training.
-	'''
+		save-dir: str
+		 	 Path to the directory where to save the output of the dnn training.
+		'''
         kf = KFold(n_splits=n_splits, shuffle = True, random_state = 1)
         save_dir = save_dir
         fold_var = 0
@@ -97,11 +104,11 @@ class BlazarDnn:
     def plotandsaveHistory(self,history_list):
         '''Function that plot and save the graph of Loss and Accuracy both for training and validation of each fold.
 	
-	Parameters
-	----------
-	history_list = list
-		       List of history from the fit of the model of the dnn.
-        '''
+		Parameters
+		----------
+		history_list = list
+		      	 List of history from the fit of the model of the dnn.
+       	'''
         fold_var = 0
         for history in history_list:
             fold_var = fold_var+1

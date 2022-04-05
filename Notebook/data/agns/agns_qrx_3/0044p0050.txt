@@ -1,0 +1,26 @@
+# RA = 00 44 24.07 (11.100289)
+# Dec = +00 50 53.22 (0.848116)
+# Redshift = 0.0
+# nH = 1.82E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 5 out of 190 selected catalogues
+
+# NVSS (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    4.6132E-17   6.8348E-18    49231.5    50508.5
+
+# GALEXMISFUV (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.9340E15     0.0000E00    1.8527E-14   7.0679E-15 0.0   0.0
+
+# XMM3DR5 (0.2-0.5 keV) (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E16     0.0000E00    1.2362E-14   2.6739E-15    52279.006875    52279.215197
+
+# XMM3DR5 (0.5-1 keV) (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.6930E17     0.0000E00    8.5983E-15   2.0713E-15    52279.006875    52279.215197
+
+# XMM3DR5 (1-2 keV) (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.3850E17     0.0000E00    9.1584E-15   2.8905E-15    52279.006875    52279.215197
+

@@ -1,0 +1,73 @@
+# RA = 01 10 04.79 (17.519958)
+# Dec = +41 49 50.90 (41.830806)
+# Redshift = 0.0
+# nH = 7.32E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 15 out of 190 selected catalogues
+
+# GB6 (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.8500E09     0.0000E00    1.9400E-15   2.4250E-16    46735.5    47069.5
+
+# NIEPPOCAT (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.7000E10 0.0 1.9240E-13   0.0000E00    52713.27199999988    52713.28820370288 ; UPPER LIMIT
+3.7000E10 0.0 1.6280E-13   0.0000E00    52577.69299999997    52577.70920370297 ; UPPER LIMIT
+3.7000E10 0.0 1.3320E-13   0.0000E00    52329.3620000002    52329.3782037032 ; UPPER LIMIT
+3.7000E10 0.0 1.1840E-13   0.0000E00    53337.57700000005    53337.59320370305 ; UPPER LIMIT
+3.7000E10 0.0 1.1840E-13   0.0000E00    53333.52400000021    53333.54020370321 ; UPPER LIMIT
+3.7000E10 0.0 1.4800E-13   0.0000E00    53259.85800000001    53259.87420370301 ; UPPER LIMIT
+3.7000E10 0.0 1.0360E-13   0.0000E00    52816.060000000056    52816.07620370306 ; UPPER LIMIT
+3.7000E10 0.0 2.3680E-13   0.0000E00    52857.91800000006    52857.934203703066 ; UPPER LIMIT
+
+# NVSS (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.2034E-15   3.6523E-17    49231.5    50508.5
+
+# allwise w1 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.7982E-12   3.0050E-14    55214.83881181    55581.35733593
+
+# allwise w2 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    8.8023E-13   1.8510E-14    55214.83881181    55581.35733593
+
+# allwise w3 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    1.0922E-13   2.3998E-14    55214.83881181    55411.07904469
+
+# WISE W1 ExtEll (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.8350E-12   3.0665E-14    55214.83881181    55411.07904469
+
+# WISE W2 ExtEll (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    9.0405E-13   1.7352E-14    55214.83881181    55411.07904469
+
+# WISE W3 ExtEll (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    1.0527E-13   1.9069E-14    55214.83881181    55411.07904469
+
+# RASS (id = 10)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    9.2752E-13   1.7480E-13    47892.5    48257.5
+
+# RXS2CAT (id = 11)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    7.3698E-13   1.4776E-13    48104.0    48499.0
+
+# 1SXPS(0.3-1keV) (id = 12)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3250E17     0.0000E00    7.9498E-13   2.1853E-13    56160.566505    56160.578843
+
+# 1SXPS(0.3—10 keV) (id = 13)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.1880E17     0.0000E00    4.6806E-13   1.0400E-13    56160.566505    56160.578843
+
+# 1SXPS(1-2keV) (id = 14)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.4190E17     0.0000E00    3.6400E-13   1.5985E-13    56160.566505    56160.578843
+
+# 1SXPS(2—10 keV) (id = 15)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.0810E18     0.0000E00    6.4387E-14   1.1136E-13    56160.566505    56160.578843
+

@@ -1,0 +1,111 @@
+# RA = 10 57 57.60 (164.49)
+# Dec = +29 37 14.02 (29.62056)
+# Redshift = 0.0
+# nH = 1.63E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 18 out of 200 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    8.2880E-17   1.4700E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.3098E-16   1.3529E-17    49231.5    50508.5
+
+# allwise w1 (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.6475E-13   6.5534E-15    55334.58810788    55529.00426897
+
+# allwise w2 (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    9.3626E-14   7.1246E-15    55334.58810788    55529.00426897
+
+# allwise w3 (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13 0.0 8.2777E-14   0.0000E00    55334.58810788    55337.96179343 ; UPPER LIMIT
+
+# allwise w4 (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 2.6172E-13   0.0000E00    55334.58810788    55337.96179343 ; UPPER LIMIT
+
+# WISE W1 PointPsf (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.8170E13     0.0000E00    1.6189E-13   7.4169E-15    55334.58810788    55337.96179343
+
+# WISE W2 PointPsf (id = 8)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+6.5170E13     0.0000E00    9.8128E-14   8.6223E-15    55334.58810788    55337.96179343
+
+# WISE W3 PointPsf (id = 9)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4980E13     0.0000E00    4.8698E-14   2.2438E-14    55334.58810788    55337.96179343
+
+# WISE W4 PointPsf (id = 10)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.3630E13 0.0 2.2627E-13   0.0000E00    55334.58810788    55337.96179343 ; UPPER LIMIT
+
+# GALEXAISFUV (id = 11)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.9340E15     0.0000E00    1.1552E-13   2.9501E-14 0.0   0.0
+
+# CMA (id = 12)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.6460E16     0.0000E00    3.5698E-13   9.7127E-14    46071.269531    46071.269531
+
+# RASS (id = 13)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    2.8050E-13   8.7072E-14    47892.5    48257.5
+
+# RXS2CAT (id = 14)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+2.4200E17     0.0000E00    2.7269E-13   8.0837E-14    48104.0    48499.0
+
+#Error getting data from external catalog Catalina RTS
+# NED (id = 15)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.9500E15     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+1.9500E15     0.0000E00    7.4100E-14   0.0000E00 0.0   0.0
+1.2900E15     0.0000E00    1.2800E-13   0.0000E00 0.0   0.0
+1.2900E15     0.0000E00    9.1800E-14   0.0000E00 0.0   0.0
+8.3600E14     0.0000E00    1.1900E-13   0.0000E00 0.0   0.0
+6.1700E14     0.0000E00    1.0700E-13   0.0000E00 0.0   0.0
+4.7700E14     0.0000E00    1.0800E-13   0.0000E00 0.0   0.0
+3.8900E14     0.0000E00    9.8100E-14   0.0000E00 0.0   0.0
+3.2500E14     0.0000E00    1.0100E-13   0.0000E00 0.0   0.0
+8.9400E13     0.0000E00    1.6900E-13   0.0000E00 0.0   0.0
+8.9400E13     0.0000E00    1.7500E-13   0.0000E00 0.0   0.0
+8.9400E13     0.0000E00    2.3500E-13   0.0000E00 0.0   0.0
+6.5100E13     0.0000E00    9.4200E-14   0.0000E00 0.0   0.0
+6.5100E13     0.0000E00    7.3800E-14   0.0000E00 0.0   0.0
+6.5100E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+2.5900E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+2.5900E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+2.5900E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+1.3600E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+1.3600E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+1.3600E13     0.0000E00    0.0000E00   0.0000E00 0.0   0.0
+1.4000E09     0.0000E00    1.2900E-16   0.0000E00 0.0   0.0
+1.4000E09     0.0000E00    8.3400E-17   0.0000E00 0.0   0.0
+1.4000E09     0.0000E00    7.1300E-17   0.0000E00 0.0   0.0
+
+# SDSS13 (id = 16)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.4510E14     0.0000E00    1.4361E-13   1.1057E-14 0.0   0.0
+6.2890E14     0.0000E00    1.3137E-13   3.1785E-15 0.0   0.0
+4.8150E14     0.0000E00    1.2844E-13   3.7739E-15 0.0   0.0
+3.9370E14     0.0000E00    1.2068E-13   4.3087E-15 0.0   0.0
+3.2860E14     0.0000E00    1.4488E-13   1.2275E-14 0.0   0.0
+
+# SDSS7 (id = 17)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.4510E14     0.0000E00    1.2125E-13   1.1401E-14 0.0   0.0
+6.2890E14     0.0000E00    1.1925E-13   3.9739E-15 0.0   0.0
+4.8150E14     0.0000E00    1.2007E-13   3.8282E-15 0.0   0.0
+3.9370E14     0.0000E00    1.1024E-13   4.9180E-15 0.0   0.0
+3.2860E14     0.0000E00    1.1443E-13   1.5902E-14 0.0   0.0
+
+# USNO A2.0 (id = 18)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+4.6880E14     0.0000E00    3.3074E-13   3.1910E-14 0.0   0.0
+6.8180E14     0.0000E00    3.8289E-13   3.6941E-14 0.0   0.0
+

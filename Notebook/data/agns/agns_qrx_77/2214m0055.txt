@@ -1,0 +1,35 @@
+# RA = 22 14 03.25 (333.513529)
+# Dec = -00 55 46.38 (-0.929549)
+# Redshift = 0.0
+# nH = 5.54E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 7 out of 190 selected catalogues
+
+# FIRST (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    2.4500E-17   2.0860E-18    49078.5    49443.5
+1.4000E09     0.0000E00    7.5880E-17   2.1000E-18    49078.5    49443.5
+
+# NVSS (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.4000E09     0.0000E00    1.0557E-16   6.8197E-18    49231.5    50508.5
+
+# XMM3DR5 (0.2-0.5 keV) (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E16     0.0000E00    1.9169E-14   6.0922E-15    55520.757662    55520.794664
+
+# XMM3DR5 (0.5-1 keV) (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.6930E17     0.0000E00    1.8289E-14   3.9937E-15    55520.757662    55520.794664
+
+# XMM3DR5 (1-2 keV) (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.3850E17     0.0000E00    1.5167E-14   3.8609E-15    55520.757662    55520.794664
+
+# XMM3DR5 (2-4.5 keV) (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E17     0.0000E00    2.8732E-14   7.9254E-15    55520.757662    55520.794664
+
+# XMM3DR5 (4.5-12 keV) (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.7770E18     0.0000E00    3.1808E-14   2.3410E-14    55520.757662    55520.794664
+

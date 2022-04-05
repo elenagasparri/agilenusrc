@@ -1,0 +1,39 @@
+# RA = 23 26 08.05 (351.533546)
+# Dec = -55 44 40.81 (-55.744669)
+# Redshift = 0.0
+# nH = 1.41E20 cm^-2 
+# Given the input coordinates, data have been retrieved from 7 out of 190 selected catalogues
+
+# SUMSS (id = 1)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+8.4300E08     0.0000E00    8.1771E-17   6.7440E-18    50600.5    52974.5
+
+# GALEXAISFUV (id = 2)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.9340E15     0.0000E00    1.4177E-13   3.7788E-14 0.0   0.0
+
+# XMM3DR5 (0.2-0.5 keV) (id = 3)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E16     0.0000E00    2.3737E-14   3.8333E-15    54419.724167    54419.754444
+7.2540E16     0.0000E00    1.7562E-14   1.9401E-15    54433.906667    54434.005718
+
+# XMM3DR5 (0.5-1 keV) (id = 4)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.6930E17     0.0000E00    2.0339E-14   2.9727E-15    54419.724167    54419.754444
+1.6930E17     0.0000E00    1.5305E-14   1.7695E-15    54433.906667    54434.005718
+
+# XMM3DR5 (1-2 keV) (id = 5)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+3.3850E17     0.0000E00    2.2817E-14   3.4803E-15    54419.724167    54419.754444
+3.3850E17     0.0000E00    1.4915E-14   1.9492E-15    54433.906667    54434.005718
+
+# XMM3DR5 (2-4.5 keV) (id = 6)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+7.2540E17     0.0000E00    2.6952E-14   6.0538E-15    54419.724167    54419.754444
+7.2540E17     0.0000E00    1.3049E-14   2.9062E-15    54433.906667    54434.005718
+
+# XMM3DR5 (4.5-12 keV) (id = 7)
+#   frequency \gn (Hz)    Bin   Nufnu (erg cm^-2 s^-1)  Nufnu (erg cm^-2 s^-1)_error    TStart    TStop
+1.7770E18     0.0000E00    3.8541E-14   1.7503E-14    54419.724167    54419.754444
+1.7770E18     0.0000E00    2.5771E-14   1.0567E-14    54433.906667    54434.005718
+
