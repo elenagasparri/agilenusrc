@@ -14,13 +14,15 @@ Install the following tools:
 #### - To use the Bi-LSTM neural network in order to classify the candidate neutrino source eventually found
 Set a virtual environment with:
 * Python v3.7
-* Tensorflow v2.7
-* Keras v2.7
+* Tensorflow v2.8
+* Keras v2.8
 * Numpy v1.21
 * Pandas v1.3
 * Matplotlib v3.2
 * Scikit-learn v1.0
 * Scipy v1.7
-* Seaborn v0.11
+
+#### - To run the script for the Sed Builder online tool:
+* Selenium
 
 [![Build Status](https://app.travis-ci.com/elenagasparri/agilenusrc.svg?branch=main)](https://app.travis-ci.com/elenagasparri/agilenusrc)
