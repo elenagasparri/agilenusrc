@@ -1,10 +1,10 @@
 # AgileNuSrc
-### Search for Gamma-Ray Counterparts of IceCube Neutrino IC170922A in the AGILE Public Archive.
+### DNN Algorithm to identify Blazars among AGNs and Searching for Gamma-Ray Counterparts of the IceCube Neutrino Events IC170922A in the AGILE Public Archive.
 
 The search for gamma ray counterparts of IceCube neutrino events is relevant for understanding the role of blazars as possible sources of cosmic neutrinos.
-A new analysis of the IceCube neutrino event IC170922A region is performed in the time interval from January, 31 to March, 15 2018 using the data in the AGILE gamma-ray satellite public archive.
-I present the candidate sources in the regions centred on the detected neutrinos and their light curves, providing estimates of the gamma ray flux above 100 MeV for the AGILE detections.
-I use the Spectral Energy Distributions of the candidate source as input for the Bidirectional LSTM neural and obtain a probability for the source to be of blazar type.
+A new analysis of the IceCube neutrino event IC170922A region is performed in the time interval from January, 31 to March, 15 2018 using the data in the AGILE gamma-ray satellite public archive.\
+I present the candidate sources in the regions centred on the detected neutrinos and their light curves, providing estimates of the gamma ray flux above 100 MeV for the AGILE detections.\
+I use the Spectral Energy Distributions of the candidate source as input for a Bidirectional LSTM neural network built and trained to obtain a probability for the source to be of the blazar type.
 
 ### Requirements:
 #### - To use the jupyter notebook with the analysis of the IceCube neutrino region
