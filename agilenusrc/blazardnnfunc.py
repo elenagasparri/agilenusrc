@@ -16,7 +16,6 @@ class BlazarDnn:
     
     def __init__(self, filename):
 		""" Class constructor:
-		    filename shall be passed as string.
 		    
 		Parameters
 		----------
@@ -88,17 +87,18 @@ class BlazarDnn:
         save_dir = save_dir
         fold_var = 0
         history_list = []
-        with tf.device('/device:GPU:0'):
-            for train_idx, test_idx in kf.split(data):
-                fold_var = fold_var+1
-                # CREATE CALLBACKS
-                checkpoint = tf.keras.callbacks.ModelCheckpoint(save_dir+run.get_model_name(fold_var), 
-							        monitor='val_accuracy', verbose=1, 
-							        save_best_only=True, mode='max')
-                callbacks_list = [checkpoint]
-                history=model.fit(x=data[train_idx],y=label[train_idx],validation_data=(data[test_idx],label[test_idx]),epochs=20, callbacks=callbacks_list)
-                np.save(os.path.join(save_dir,f'my_history_{fold_var}.npy'),history.history)
-                history_list.append(history)
+        for train_idx, val_idx in kf.split(data_train):
+			fold_var = fold_var+1
+			print(train_idx.shape, val_idx.shape)
+			# CREATE CALLBACKS
+			checkpoint = tf.keras.callbacks.ModelCheckpoint(save_dir+get_model_name(fold_var), 
+								monitor='val_accuracy', verbose=1, 
+								save_best_only=True, mode='max')
+			earlystopping = tf.keras.callbacks.EarlyStopping(monitor='val_accuracy',patience=4)
+			callbacks_list = [checkpoint,earlystopping]
+			history=model.fit(x=data_train[train_idx],y=l_train[train_idx],validation_data=(data_train[val_idx],l_train[val_idx]),epochs=20, callbacks=callbacks_list)
+            np.save(os.path.join(save_dir,f'my_history_{fold_var}.npy'),history.history)
+            history_list.append(history)
         return history_list
 
     def plotandsaveHistory(self,history_list):
@@ -112,7 +112,7 @@ class BlazarDnn:
         fold_var = 0
         for history in history_list:
             fold_var = fold_var+1
-            fig, (ax1, ax2) = plt.subplots(1, 2)
+            fig, (ax1, ax2) = plt.subplots(1, 2, constrained_layout=True)
             fig.suptitle(f'Loss and Accuracy plot for both Training and Validation (fold_{i})')
 
             ax1.plot(history.history["val_loss"], label='validation')
@@ -120,16 +120,13 @@ class BlazarDnn:
             ax1.legend(loc="upper right")
             ax1.set_xlabel('Epochs')
             ax1.set_ylabel('Loss')
-            ax1.set_xlim(-0.5,20)
-            ax1.set_ylim(0.1,0.7)
   
             ax2.plot(history.history["val_accuracy"], label='validation')
             ax2.plot(history.history["accuracy"], label='training')
             ax2.legend(loc="lower right")
             ax2.set_xlabel('Epochs')
             ax2.set_ylabel('Accuracy')
-            ax2.set_xlim(-0.5,20)
-            ax2.set_ylim(0.5,0.9)
+
             fig.savefig(os.path.join(save_dir,f'plot_{i}'),bbox_inches='tight')
             fig.show()
 
